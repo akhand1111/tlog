@@ -4,13 +4,14 @@ dist: xenial
 
 os:
   - linux
-  - osx
-  - windows
 
 arch:
   - amd64
-  - i386
-  - arm64
+  - arm64-graviton2
+
+virt: lxd
+
+group: edge
 
 go:
   - "1.15"
